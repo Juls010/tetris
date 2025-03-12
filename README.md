@@ -1,52 +1,51 @@
 # Tetris - Java
 <p align="center">
   <img src="https://github.com/user-attachments/assets/8cfede3d-b49d-4ffd-9126-1ca4ac02eb71"
-    alt="Captura de pantalla del juego Tetris" 
+    alt="Tetris game screenshot" 
     width="300">
-  </p>
+</p>
 
+This is a Tetris project developed in Java. The game allows users to play the classic Tetris game with a graphical interface.
 
-Este es un proyecto de Tetris desarrollado en Java. El juego permite al usuario jugar al clásico juego de Tetris con una interfaz gráfica.
+🚀 **Tetris Project**  
 
-🚀 Proyecto Tetris
+🎮 **Developed in Java**  
 
-🎮 Desarrollo en Java
+📌 **Version 1.0**  
 
-📌 Versión 1.0
+## Project Classes
 
+- **Board.java**: Manages the game board, where pieces are added, moved, and checked for completed rows.
+- **GameController.java**: Controls the game logic, such as starting the game, detecting collisions, and managing the game flow.
+- **Tetrimonio.java**: Represents a Tetris piece, known as a "tetrimino." This class defines the shapes and movements of the pieces.
+- **Tetris.java**: The main class that initializes and starts the game, setting up the board and the game loop.
+- **TetrisGUI.java**: Provides the graphical user interface, handling the game's visual representation and interactive controls.
 
-## Clases del Proyecto
+## Requirements
 
-- **Board.java**: Gestiona el tablero de juego, donde se realizan las acciones de agregar piezas, moverlas y comprobar si se han completado filas.
-- **GameController.java**: Controla la lógica del juego, como el inicio del juego, la detección de colisiones, y el control del flujo de la partida.
-- **Tetrimonio.java**: Representa una pieza de Tetris, conocida como "tetrimino". Esta clase define las formas y movimientos de las piezas.
-- **Tetris.java**: La clase principal que inicializa y arranca el juego, configurando el tablero y el ciclo de juego.
-- **TetrisGUI.java**: Proporciona la interfaz gráfica del usuario, gestionando la visualización del juego y los controles interactivos.
+- JDK 8 or higher.  
+- A development environment such as IntelliJ IDEA, Eclipse, or any other that supports Java.
 
-## Requisitos
+## Usage Instructions
 
-- JDK 8 o superior.
-- Un entorno de desarrollo como IntelliJ IDEA, Eclipse, o cualquier otro que soporte Java.
+1. Clone or download the repository to your local machine.
+2. Open the project in your favorite Java development environment.
+3. Run the `Tetris.java` class to start the game.
+4. Use the arrow keys to move the pieces:
+   - **Up**: Rotate the piece.
+   - **Down**: Move the piece downward.
+   - **Left/Right**: Move the piece sideways.
 
-## Instrucciones de Uso
+## Screenshot
 
-1. Clona o descarga el repositorio en tu máquina local.
-2. Abre el proyecto en tu entorno de desarrollo Java favorito.
-3. Ejecuta la clase `Tetris.java` para iniciar el juego.
-4. Usa las teclas de dirección para mover las piezas:
-   - **Arriba**: Rotar la pieza.
-   - **Abajo**: Mover la pieza hacia abajo.
-   - **Izquierda/Derecha**: Mover la pieza lateralmente.
+![Tetris game screenshot](https://github.com/user-attachments/assets/494d8d40-66e9-4502-b1fb-99424f3b595e)
 
-## Captura de Pantalla
+## Contributions
 
-![Captura de pantalla del juego Tetris](https://github.com/user-attachments/assets/494d8d40-66e9-4502-b1fb-99424f3b595e)
+If you want to contribute to the project, feel free to fork it and submit a pull request with improvements, bug fixes, or new features.
 
-## Contribuciones
+## Thanks for checking out this repo! 💗✨  
 
-Si deseas contribuir al proyecto, siéntete libre de hacer un fork y enviar un pull request con mejoras, correcciones de errores o nuevas características.
-
-## Gracias por ver este repo!💗✨
 
 
 
