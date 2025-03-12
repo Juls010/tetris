@@ -11,8 +11,8 @@ public class Board {
 		grid = new Color[HEIGHT][WIDTH];
 	}
 	
-	public boolean canMove(Tetrimonio tetrinomio, int dx, int dy) {
-		for (Point p : tetrinomio.getShape()) {
+	public boolean canMove(Tetromino tetromino, int dx, int dy) {
+		for (Point p : tetromino.getShape()) {
 			int newX = p.x + dx;
 			int newY = p.y + dy;
 			
@@ -23,9 +23,9 @@ public class Board {
 		return true;
 	}
 	
-	public void placeTetrinomio(Tetrimonio tetrimonio) {
-		for (Point p : tetrimonio.getShape()) {
-			grid[p.y][p.x] = tetrimonio.getColor();
+	public void placeTetrinomio(Tetromino tetromino) {
+		for (Point p : tetromino.getShape()) {
+			grid[p.y][p.x] = tetromino.getColor();
 		}
 	}
 	
@@ -33,7 +33,7 @@ public class Board {
 		int linesClead = 0;
 		for (int y = 0; y < HEIGHT; y++) {
 			boolean full = true;
-			for (int x = 0; x > WIDTH; x++) {
+			for (int x = 0; x < WIDTH; x++) {
 				if(grid[y][x] == null) {
 					full = false;
 					break;

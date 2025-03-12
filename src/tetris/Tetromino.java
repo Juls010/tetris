@@ -3,11 +3,11 @@ package tetris;
 import java.awt.Color;
 import java.awt.Point;
 
-public class Tetrimonio {
+public class Tetromino {
 	private Point[] shape;
 	private Color color;
 
-	public Tetrimonio(Point[] shape, Color color) {
+	public Tetromino(Point[] shape, Color color) {
 		this.shape = shape;
 		this.color = color;
 	}
