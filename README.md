@@ -17,7 +17,7 @@ This is a Tetris project developed in Java. The game allows users to play the cl
 
 - **Board.java**: Manages the game board, where pieces are added, moved, and checked for completed rows.
 - **GameController.java**: Controls the game logic, such as starting the game, detecting collisions, and managing the game flow.
-- **Tetrimonio.java**: Represents a Tetris piece, known as a "tetrimino." This class defines the shapes and movements of the pieces.
+- **Tetromino.java**: Represents a Tetris piece, known as a "tetrimino." This class defines the shapes and movements of the pieces.
 - **Tetris.java**: The main class that initializes and starts the game, setting up the board and the game loop.
 - **TetrisGUI.java**: Provides the graphical user interface, handling the game's visual representation and interactive controls.
 
